@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-header {
+ body{
+    margin: 0;
     font-family: "Roboto", sans-serif;
+}
+
+header {
     background-color:#1f2937 ;
     color:#fff;
     display: flex;
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
-
+    
 }
 
 h1{
@@ -18,4 +22,16 @@ h1{
 .header-right-container{
     align-items:center;
     display: flex;
+    gap: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
+
+
+.hero-section {
+    background-color:#1f2937 ;
+    color: #fff;
+
+}
+
+
