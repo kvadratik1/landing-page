@@ -17,6 +17,7 @@ header {
 
 h1{
     margin: 0;
+    font-size:24px ;
 
 }
 .header-right-container{
@@ -31,7 +32,20 @@ h1{
 .hero-section {
     background-color:#1f2937 ;
     color: #fff;
-
+   padding: 100px 200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
+.hero-left-container{
+    display: flex;
+    flex-direction: column;
+}
 
+button {
+    background-color:#3882F6 ;
+    color: #fff;
+    border: 0;
+    width: fit-content;
+}
