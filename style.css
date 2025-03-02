@@ -41,6 +41,7 @@ h1{
 .hero-left-container{
     display: flex;
     flex-direction: column;
+
 }
 
 button {
@@ -48,4 +49,9 @@ button {
     color: #fff;
     border: 0;
     width: fit-content;
+}
+
+.description {
+    color: #E5E7EB;
+    font-size: 18px;
 }
