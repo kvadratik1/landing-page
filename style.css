@@ -41,7 +41,6 @@ h1{
 .hero-left-container{
     display: flex;
     flex-direction: column;
-
 }
 
 button {
@@ -55,3 +54,40 @@ button {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.hero-right-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: #e5e7eb solid;
+    background-color: #e5e7eb;
+    height: 200px;
+    width: 450px;
+    color: #fff;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    font-size: 24px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    margin: 24px;
+    display: flex;
+    flex-shrink: 1;
+    padding: 16px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
