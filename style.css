@@ -71,6 +71,7 @@ button {
     justify-content: center;
     margin-top: 24px;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .box {
@@ -89,5 +90,23 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    background: #e5e7eb;
+    color: #161616;
+    padding:  100px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.author {
+    font-weight: 900;
+}
