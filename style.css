@@ -109,4 +109,57 @@ button {
 
 .author {
     font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.main-caution {
+    display: flex;
+    justify-content: center;
+}
+
+.caution {
+    border: 1px solid #3882F6;
+    background-color: #3882F6;
+    color: #f9fAf8;
+    height: 120px;
+    width: 780px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    height: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.caution-button {
+    background: #3882F6;
+    border: solid 1px #f9fAf8;
+    color: #f9fAf8;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+}
+
+.sub-caution-text {
+    color:#E5E7EB;
+    font-size: small;
+}
+
+.caution-text {
+    color: #fff;
+    font-size:large;
+}
+.footer-text {
+    background-color:#1F2937 ;
+    color:#E5E7EB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-size: small;
 }
